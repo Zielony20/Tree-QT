@@ -1,0 +1,21 @@
+<tree>
+    <name>tytul</name>
+    <tree>
+        <name>t1</name>
+    </tree>
+    <tree>
+        <name>t2</name>
+        <tree>
+            <name>t21</name>
+        </tree>
+        <tree>
+            <name>t22</name>
+        </tree>
+    </tree>
+    <tree>
+        <name>t3</name>
+        <tree>
+            <name>t31</name>
+        </tree>
+    </tree>
+</tree>

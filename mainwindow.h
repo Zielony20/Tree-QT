@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "tree.h"
 #include <QFile>
 #include <QFileDialog>
 #include <QTextStream>
@@ -41,10 +40,6 @@ private slots:
     void onCustomContextMenu(const QPoint &);
     void AddItem_triggered();
     void DeleteItem_triggered();
-
-    //void on_treeView_expanded(const QModelIndex &index);
-    //void on_actionAdd_triggered();
-
     void on_indentationBox_valueChanged(int arg1);
 
 private:

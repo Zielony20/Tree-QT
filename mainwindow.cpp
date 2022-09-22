@@ -184,11 +184,6 @@ void MainWindow::on_actionLoad_triggered()
     file.close();
 }
 
-
-//void MainWindow::on_treeView_expanded(const QModelIndex &index){}
-
-//void MainWindow::on_actionAdd_triggered(){}
-
 void MainWindow::on_indentationBox_valueChanged(int arg1)
 {
     ui->treeView->setIndentation(arg1);
